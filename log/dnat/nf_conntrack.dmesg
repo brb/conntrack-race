@@ -1,0 +1,157 @@
+[ 1054.863739] nf_conntrack: new packet for 000000003a79d6f8
+[ 1054.863752] nf_conntrack: Altering reply tuple of 000000003a79d6f8 to 
+[ 1054.863769] nf_conntrack: Confirming conntrack 000000003a79d6f8
+[ 1054.863782] nf_conntrack: nf_confirm_conntrack: 000000003a79d6f8 src=10.0.2.15 (38814) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (38814)
+[ 1054.863792] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.863815] nf_conntrack: Altering reply tuple of 0000000051d1fe48 to 
+[ 1054.863828] nf_conntrack: Confirming conntrack 0000000051d1fe48
+[ 1054.863837] nf_conntrack: nf_confirm_conntrack: 0000000051d1fe48 src=10.0.2.15 (38814) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (38814)
+[ 1054.863843] nf_conntrack: nf_ct_resolve_clash: 0000000051d1fe48 clashes with 000000003a79d6f8
+[ 1054.863850] nf_conntrack: destroy_conntrack(0000000051d1fe48)
+[ 1054.863854] nf_conntrack: destroy_conntrack: returning ct=0000000051d1fe48 to slab
+[ 1054.863869] nf_conntrack: new packet for 000000003a79d6f8
+[ 1054.864328] nf_conntrack: new packet for 000000003a79d6f8
+[ 1054.864426] nf_conntrack: new packet for 000000003a79d6f8
+[ 1054.864610] nf_conntrack: new packet for 000000003a79d6f8
+[ 1054.866765] nf_conntrack: new packet for 000000000137de4b
+[ 1054.866774] nf_conntrack: Altering reply tuple of 000000000137de4b to 
+[ 1054.866778] nf_conntrack: Confirming conntrack 000000000137de4b
+[ 1054.866792] nf_conntrack: nf_confirm_conntrack: 000000000137de4b src=10.0.2.15 (46378) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (46378)
+[ 1054.866970] nf_conntrack: new packet for 000000000137de4b
+[ 1054.867014] nf_conntrack: new packet for 000000000137de4b
+[ 1054.867055] nf_conntrack: new packet for 000000000137de4b
+[ 1054.867158] nf_conntrack: new packet for 000000000137de4b
+[ 1054.867483] nf_conntrack: new packet for 000000000137de4b
+[ 1054.867597] nf_conntrack: new packet for 000000000137de4b
+[ 1054.869386] nf_conntrack: new packet for 000000005030aae1
+[ 1054.869395] nf_conntrack: Altering reply tuple of 000000005030aae1 to 
+[ 1054.869407] nf_conntrack: Confirming conntrack 000000005030aae1
+[ 1054.869412] nf_conntrack: nf_confirm_conntrack: 000000005030aae1 src=10.0.2.15 (52459) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (52459)
+[ 1054.869455] nf_conntrack: new packet for 000000005030aae1
+[ 1054.869540] nf_conntrack: new packet for 000000005030aae1
+[ 1054.870040] nf_conntrack: new packet for 000000005030aae1
+[ 1054.870150] nf_conntrack: new packet for 000000005030aae1
+[ 1054.870323] nf_conntrack: new packet for 000000005030aae1
+[ 1054.870386] nf_conntrack: new packet for 000000005030aae1
+[ 1054.870818] nf_conntrack: new packet for 000000005030aae1
+[ 1054.871175] nf_conntrack: new packet for 000000005030aae1
+[ 1054.871297] nf_conntrack: new packet for 000000005030aae1
+[ 1054.874156] nf_conntrack: new packet for 0000000023156e5a
+[ 1054.874159] nf_conntrack: Altering reply tuple of 0000000023156e5a to 
+[ 1054.874182] nf_conntrack: Confirming conntrack 0000000023156e5a
+[ 1054.874189] nf_conntrack: nf_confirm_conntrack: 0000000023156e5a src=10.0.2.15 (51715) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (51715)
+[ 1054.874628] nf_conntrack: new packet for 0000000023156e5a
+[ 1054.874753] nf_conntrack: new packet for 0000000023156e5a
+[ 1054.875255] nf_conntrack: new packet for 0000000023156e5a
+[ 1054.875378] nf_conntrack: new packet for 0000000023156e5a
+[ 1054.878231] nf_conntrack: new packet for 000000000d32b29f
+[ 1054.878344] nf_conntrack: Altering reply tuple of 000000000d32b29f to 
+[ 1054.878348] nf_conntrack: new packet for 0000000089445759
+[ 1054.878353] nf_conntrack: Altering reply tuple of 0000000089445759 to 
+[ 1054.878362] nf_conntrack: Confirming conntrack 000000000d32b29f
+[ 1054.878369] nf_conntrack: nf_confirm_conntrack: 000000000d32b29f src=10.0.2.15 (42284) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (42284)
+[ 1054.878373] nf_conntrack: Confirming conntrack 0000000089445759
+[ 1054.878378] nf_conntrack: nf_confirm_conntrack: 0000000089445759 src=10.0.2.15 (42284) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (42284)
+[ 1054.878383] nf_conntrack: nf_ct_resolve_clash: 0000000089445759 clashes with 000000000d32b29f
+[ 1054.878387] nf_conntrack: nf_ct_resolve_clash: 0000000089445759 resolved
+[ 1054.878391] nf_conntrack: destroy_conntrack(0000000089445759)
+[ 1054.878395] nf_conntrack: destroy_conntrack: returning ct=0000000089445759 to slab
+[ 1054.878486] nf_conntrack: new packet for 000000000d32b29f
+[ 1054.878520] nf_conntrack: new packet for 000000000d32b29f
+[ 1054.878956] nf_conntrack: new packet for 000000000d32b29f
+[ 1054.879076] nf_conntrack: new packet for 000000000d32b29f
+[ 1054.881041] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.881050] nf_conntrack: Altering reply tuple of 0000000051d1fe48 to 
+[ 1054.881069] nf_conntrack: Confirming conntrack 0000000051d1fe48
+[ 1054.881070] nf_conntrack: nf_confirm_conntrack: 0000000051d1fe48 src=10.0.2.15 (33508) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (33508)
+[ 1054.881093] nf_conntrack: new packet for 00000000569a6c17
+[ 1054.881101] nf_conntrack: Altering reply tuple of 00000000569a6c17 to 
+[ 1054.881110] nf_conntrack: Confirming conntrack 00000000569a6c17
+[ 1054.881117] nf_conntrack: nf_confirm_conntrack: 00000000569a6c17 src=10.0.2.15 (33508) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (33508)
+[ 1054.881121] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.881125] nf_conntrack: nf_ct_resolve_clash: 00000000569a6c17 clashes with 0000000051d1fe48
+[ 1054.881129] nf_conntrack: destroy_conntrack(00000000569a6c17)
+[ 1054.881133] nf_conntrack: destroy_conntrack: returning ct=00000000569a6c17 to slab
+[ 1054.881285] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.881960] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.882414] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.882470] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.882696] nf_conntrack: new packet for 0000000051d1fe48
+[ 1054.884475] nf_conntrack: new packet for 00000000569a6c17
+[ 1054.884482] nf_conntrack: new packet for 000000006968c8ea
+[ 1054.884514] nf_conntrack: Altering reply tuple of 00000000569a6c17 to 
+[ 1054.884521] nf_conntrack: Altering reply tuple of 000000006968c8ea to 
+[ 1054.884525] nf_conntrack: Confirming conntrack 00000000569a6c17
+[ 1054.884529] nf_conntrack: new packet for 0000000089445759
+[ 1054.884537] nf_conntrack: nf_confirm_conntrack: 00000000569a6c17 src=10.0.2.15 (33814) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (33814)
+[ 1054.884541] nf_conntrack: Altering reply tuple of 0000000089445759 to 
+[ 1054.884549] nf_conntrack: new packet for 00000000569a6c17
+[ 1054.884553] nf_conntrack: Confirming conntrack 0000000089445759
+[ 1054.884560] nf_conntrack: nf_confirm_conntrack: 0000000089445759 src=10.0.2.15 (33814) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (33814)
+[ 1054.884564] nf_conntrack: nf_ct_resolve_clash: 0000000089445759 clashes with 00000000569a6c17
+[ 1054.884569] nf_conntrack: destroy_conntrack(0000000089445759)
+[ 1054.884573] nf_conntrack: destroy_conntrack: returning ct=0000000089445759 to slab
+[ 1054.885256] nf_conntrack: Confirming conntrack 000000006968c8ea
+[ 1054.885261] nf_conntrack: nf_confirm_conntrack: 000000006968c8ea src=10.0.2.15 (33814) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (33814)
+[ 1054.885264] nf_conntrack: nf_ct_resolve_clash: 000000006968c8ea clashes with 00000000569a6c17
+[ 1054.885267] nf_conntrack: destroy_conntrack(000000006968c8ea)
+[ 1054.885270] nf_conntrack: destroy_conntrack: returning ct=000000006968c8ea to slab
+[ 1054.886772] nf_conntrack: new packet for 000000006968c8ea
+[ 1054.886780] nf_conntrack: Altering reply tuple of 000000006968c8ea to 
+[ 1054.886781] nf_conntrack: Confirming conntrack 000000006968c8ea
+[ 1054.886808] nf_conntrack: nf_confirm_conntrack: 000000006968c8ea src=10.0.2.15 (58333) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (58333)
+[ 1054.886824] nf_conntrack: new packet for 000000006968c8ea
+[ 1054.886836] nf_conntrack: new packet for 000000006968c8ea
+[ 1054.887620] nf_conntrack: new packet for 000000006968c8ea
+[ 1054.894836] nf_conntrack: new packet for 0000000089445759
+[ 1054.894839] nf_conntrack: new packet for 000000003b086430
+[ 1054.894843] nf_conntrack: Altering reply tuple of 000000003b086430 to 
+[ 1054.894921] nf_conntrack: Altering reply tuple of 0000000089445759 to 
+[ 1054.895053] nf_conntrack: Confirming conntrack 0000000089445759
+[ 1054.895074] nf_conntrack: nf_confirm_conntrack: 0000000089445759 src=10.0.2.15 (33043) dst=192.168.48.15 (6666) = src=127.0.0.1 (8001) dst=10.0.2.15 (33043)
+[ 1054.895083] nf_conntrack: Confirming conntrack 000000003b086430
+[ 1054.895088] nf_conntrack: nf_confirm_conntrack: 000000003b086430 src=10.0.2.15 (33043) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (33043)
+[ 1054.895092] nf_conntrack: nf_ct_resolve_clash: 000000003b086430 clashes with 0000000089445759
+[ 1054.895096] nf_conntrack: destroy_conntrack(000000003b086430)
+[ 1054.895099] nf_conntrack: destroy_conntrack: returning ct=000000003b086430 to slab
+[ 1054.895155] nf_conntrack: new packet for 0000000089445759
+[ 1054.897219] nf_conntrack: new packet for 00000000e056982b
+[ 1054.897227] nf_conntrack: Altering reply tuple of 00000000e056982b to 
+[ 1054.897240] nf_conntrack: Confirming conntrack 00000000e056982b
+[ 1054.897243] nf_conntrack: nf_confirm_conntrack: 00000000e056982b src=10.0.2.15 (40129) dst=192.168.48.15 (6666) = src=127.0.0.1 (8000) dst=10.0.2.15 (40129)
+[ 1054.897291] nf_conntrack: new packet for 00000000e056982b
+[ 1054.897320] nf_conntrack: new packet for 00000000e056982b
+[ 1054.897439] nf_conntrack: new packet for 00000000e056982b
+[ 1054.897581] nf_conntrack: new packet for 00000000e056982b
+[ 1054.898041] nf_conntrack: new packet for 00000000e056982b
+[ 1054.898127] nf_conntrack: new packet for 00000000e056982b
+[ 1084.983381] nf_conntrack: clean_from_lists(00000000e056982b)
+[ 1084.983387] nf_conntrack: destroy_conntrack(00000000e056982b)
+[ 1084.983392] nf_conntrack: destroy_conntrack: returning ct=00000000e056982b to slab
+[ 1086.032906] nf_conntrack: clean_from_lists(000000006968c8ea)
+[ 1086.032914] nf_conntrack: destroy_conntrack(000000006968c8ea)
+[ 1086.032920] nf_conntrack: destroy_conntrack: returning ct=000000006968c8ea to slab
+[ 1087.002415] nf_conntrack: clean_from_lists(000000003a79d6f8)
+[ 1087.002425] nf_conntrack: destroy_conntrack(000000003a79d6f8)
+[ 1087.002433] nf_conntrack: destroy_conntrack: returning ct=000000003a79d6f8 to slab
+[ 1087.598916] nf_conntrack: clean_from_lists(0000000051d1fe48)
+[ 1087.598923] nf_conntrack: destroy_conntrack(0000000051d1fe48)
+[ 1087.598927] nf_conntrack: destroy_conntrack: returning ct=0000000051d1fe48 to slab
+[ 1089.677847] nf_conntrack: clean_from_lists(000000005030aae1)
+[ 1089.677857] nf_conntrack: destroy_conntrack(000000005030aae1)
+[ 1089.677865] nf_conntrack: destroy_conntrack: returning ct=000000005030aae1 to slab
+[ 1089.987618] nf_conntrack: clean_from_lists(000000000137de4b)
+[ 1089.987625] nf_conntrack: destroy_conntrack(000000000137de4b)
+[ 1089.987630] nf_conntrack: destroy_conntrack: returning ct=000000000137de4b to slab
+[ 1090.993737] nf_conntrack: clean_from_lists(0000000023156e5a)
+[ 1090.993746] nf_conntrack: destroy_conntrack(0000000023156e5a)
+[ 1090.993752] nf_conntrack: destroy_conntrack: returning ct=0000000023156e5a to slab
+[ 1092.999523] nf_conntrack: clean_from_lists(00000000569a6c17)
+[ 1092.999529] nf_conntrack: destroy_conntrack(00000000569a6c17)
+[ 1092.999533] nf_conntrack: destroy_conntrack: returning ct=00000000569a6c17 to slab
+[ 1093.905640] nf_conntrack: clean_from_lists(0000000089445759)
+[ 1093.905648] nf_conntrack: destroy_conntrack(0000000089445759)
+[ 1093.905655] nf_conntrack: destroy_conntrack: returning ct=0000000089445759 to slab
+[ 1099.876095] nf_conntrack: clean_from_lists(000000000d32b29f)
+[ 1099.876105] nf_conntrack: destroy_conntrack(000000000d32b29f)
+[ 1099.876113] nf_conntrack: destroy_conntrack: returning ct=000000000d32b29f to slab

@@ -1,0 +1,13 @@
+# before
+
+cpu=0           found=32 invalid=0 ignore=46 insert=0 insert_failed=18 drop=12 early_drop=0 error=0 search_restart=0
+cpu=1           found=15 invalid=0 ignore=40 insert=0 insert_failed=14 drop=7 early_drop=0 error=0 search_restart=0
+cpu=2           found=19 invalid=0 ignore=34 insert=0 insert_failed=15 drop=8 early_drop=0 error=0 search_restart=0
+cpu=3           found=15 invalid=0 ignore=29 insert=0 insert_failed=13 drop=7 early_drop=0 error=0 search_restart=0
+
+# after
+
+cpu=0           found=34 invalid=0 ignore=46 insert=0 insert_failed=22 drop=13 early_drop=0 error=0 search_restart=0
+cpu=1           found=17 invalid=0 ignore=40 insert=0 insert_failed=17 drop=9 early_drop=0 error=0 search_restart=0
+cpu=2           found=19 invalid=0 ignore=34 insert=0 insert_failed=17 drop=8 early_drop=0 error=0 search_restart=0
+cpu=3           found=15 invalid=0 ignore=29 insert=0 insert_failed=15 drop=7 early_drop=0 error=0 search_restart=0

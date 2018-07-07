@@ -1,0 +1,42 @@
+diff --git a/net/netfilter/nf_conntrack_core.c b/net/netfilter/nf_conntrack_core.c
+index cc5ef8c9d0da..89ff6c4031c1 100644
+--- a/net/netfilter/nf_conntrack_core.c
++++ b/net/netfilter/nf_conntrack_core.c
+@@ -711,12 +711,17 @@ static int nf_ct_resolve_clash(struct net *net, struct sk_buff *skb,
+ 	enum ip_conntrack_info oldinfo;
+ 	struct nf_conn *loser_ct = nf_ct_get(skb, &oldinfo);
+ 
++	pr_debug("nf_ct_resolve_clash: %p clashes with %p\n", loser_ct, ct);
++
+ 	l4proto = __nf_ct_l4proto_find(nf_ct_l3num(ct), nf_ct_protonum(ct));
+ 	if (l4proto->allow_clash &&
+ 	    !nf_ct_is_dying(ct) &&
+ 	    atomic_inc_not_zero(&ct->ct_general.use)) {
+ 		if (((ct->status & IPS_NAT_DONE_MASK) == 0) ||
+ 		    nf_ct_match(ct, loser_ct)) {
++
++			pr_debug("nf_ct_resolve_clash: %p resolved\n", loser_ct);
++
+ 			nf_ct_acct_merge(ct, ctinfo, loser_ct);
+ 			nf_conntrack_put(&loser_ct->ct_general);
+ 			nf_ct_set(skb, ct, oldinfo);
+@@ -777,6 +782,19 @@ __nf_conntrack_confirm(struct sk_buff *skb)
+ 	 */
+ 	WARN_ON(nf_ct_is_confirmed(ct));
+ 	pr_debug("Confirming conntrack %p\n", ct);
++
++	pr_debug("nf_confirm_conntrack: %p src=%pI4 (%hu) dst=%pI4 (%hu) = src=%pI4 (%hu) dst=%pI4 (%hu)\n",
++		ct,
++		&(ct->tuplehash[IP_CT_DIR_ORIGINAL].tuple.src.u3.ip),
++		ntohs(ct->tuplehash[IP_CT_DIR_ORIGINAL].tuple.src.u.udp.port),
++		&(ct->tuplehash[IP_CT_DIR_ORIGINAL].tuple.dst.u3.ip),
++		ntohs(ct->tuplehash[IP_CT_DIR_ORIGINAL].tuple.dst.u.udp.port),
++		&(ct->tuplehash[IP_CT_DIR_REPLY].tuple.src.u3.ip),
++		ntohs(ct->tuplehash[IP_CT_DIR_REPLY].tuple.src.u.udp.port),
++		&(ct->tuplehash[IP_CT_DIR_REPLY].tuple.dst.u3.ip),
++		ntohs(ct->tuplehash[IP_CT_DIR_REPLY].tuple.dst.u.udp.port)
++	);
++
+ 	/* We have to check the DYING flag after unlink to prevent
+ 	 * a race against nf_ct_get_next_corpse() possibly called from
+ 	 * user context, else we insert an already 'dead' hash, blocking
