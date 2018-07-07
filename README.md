@@ -12,6 +12,7 @@ Discussion: http://patchwork.ozlabs.org/patch/937963/
    ./server 8000`.
 4. Compile and run [client.c](src/client.c): `gcc -lpthread client.c -o client
    && ./client 127.0.0.1 8000`.
+5. Observe clashes: `dmesg | grep nf_ct_resolve_clash`.
 
 ## Logs
 
