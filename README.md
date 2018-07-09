@@ -11,7 +11,7 @@ Discussion: http://patchwork.ozlabs.org/patch/937963/
 3. Compile and run [server.c](src/server.c): `gcc server.c -o server &&
    ./server 8000`.
 4. Compile and run [client.c](src/client.c): `gcc -lpthread client.c -o client
-   && ./client 127.0.0.1 8000`.
+   && for i in $(seq 1 10); do ./client 127.0.0.1 8000; done`.
 5. Observe clashes: `dmesg | grep nf_ct_resolve_clash`.
 
 ## Logs
